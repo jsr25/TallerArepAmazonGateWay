@@ -1,8 +1,8 @@
-# Taller AWS 
+# Taller AWS Api Gateway
 
 ## Autor: Juan Sebastian Ramos Isaza
 
-## Fecha: 05-05-2021
+## Fecha: 05-04-2021
 
 ### Prerequisitos
 Para el uso de esta aplicación se necesitan tener instalados los siguientes componentes:
@@ -28,18 +28,23 @@ para generar el contenedor deben ejecutar
 Para usar la aplicacion deberan entrar a localhost/converter?value=<numero> 
 
 ## Evidencia Ec2
+Se puede apreciar la maquina ec2 de AWS que tiene en este momento la aplicacion 
+corriendo
 ![](./img/maquinaAws.png)
+Se puede apreciar una prueba a la maquina Ec2.
 ![](./img/vistaNavegador.png)
 
 ## Evidencia Gateway
-
+![](./img/gateway.png)
+![](./img/gateway2.png)
 ## Evidencia S3
-
+![](./img/S3.png)
 
 ## video 
 
 
- en este enlace encontrara el video demostracion de la apliacacion montada en ec2 aws con dokcer
+https://youtu.be/qb0nKYmLbso en este enlace encontrara el video demostracion de la apliacacion montada en ec2 aws con dokcer, ademas 
+usando Api Gateway y S3.
 
 ### Javadoc
 La documentación se encuentra en el directorio apidocs dentro el directorio Robin y LogService, para generar una nueva documentación
