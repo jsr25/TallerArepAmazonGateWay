@@ -14,7 +14,7 @@ Para el uso de esta aplicación se necesitan tener instalados los siguientes com
 
 ### Uso 
 Para el uso de la apliacion deben clonar el repositorio en su maquina con el comando:
-* git clone 
+* git clone https://github.com/jsr25/TallerArepAmazonGateWay.git
 
 Deberan entrar en el directorio del repositorio y ejecutar el siguiente comando
 *  mvn package
@@ -26,8 +26,19 @@ para generar el contenedor deben ejecutar
 * docker run -d -p 80:6000 --name tallerarepconteiner tallerarep
 
 Para usar la aplicacion deberan entrar a localhost/converter?value=<numero> 
+
+## Evidencia Ec2
+![](./img/maquinaAws.png)
+![](./img/vistaNavegador.png)
+
+## Evidencia Gateway
+
+## Evidencia S3
+
+
 ## video 
-![](./img/maquinaaws.png)
+
+
  en este enlace encontrara el video demostracion de la apliacacion montada en ec2 aws con dokcer
 
 ### Javadoc
