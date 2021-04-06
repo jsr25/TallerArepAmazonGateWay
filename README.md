@@ -20,10 +20,10 @@ Deberan entrar en el directorio del repositorio y ejecutar el siguiente comando
 *  mvn package
 
 Para generar la imagen de docker debe ejecutar 
-* docker build --tag parcial2arep .
+* docker build --tag tallerarep .
 
 para generar el contenedor deben ejecutar 
-* docker run -d -p 80:6000 --name arepparcialconteiner parcial2arep
+* docker run -d -p 80:6000 --name tallerarepconteiner tallerarep
 
 Para usar la aplicacion deberan entrar a localhost/converter?value=<numero> 
 ## video 
